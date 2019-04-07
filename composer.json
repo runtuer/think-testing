@@ -15,7 +15,7 @@
     "require": {
         "topthink/think-installer": "~1.0",
         "topthink/think-helper": "~1.0",
-        "phpunit/phpunit": "^7.0.0",
+        "phpunit/phpunit": "^6.2",
         "symfony/dom-crawler": "^2.8.8"
     },
     "autoload": {
