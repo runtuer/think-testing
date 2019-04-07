@@ -1,0 +1,25 @@
+{
+    "name": "runtuer/think-testing",
+    "license": "Apache-2.0",
+    "type": "think-testing",
+    "authors": [
+        {
+            "name": "runtuer",
+            "email": "theseaer@qq.com"
+        }
+    ],
+    "require": {
+        "topthink/think-installer": "~1.0",
+        "topthink/think-helper": "~1.0",
+        "phpunit/phpunit": "^8.1.0",
+        "symfony/dom-crawler": "^2.8.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\testing\\": "src"
+        },
+        "files": [
+            "src/config.php"
+        ]
+    }
+}
